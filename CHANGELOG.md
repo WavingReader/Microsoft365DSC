@@ -1,7 +1,9 @@
 # Change log for Microsoft365DSC
 
 # UNRELEASED
-
+* TeamsMeetingPolicy
+  * Added missing Parameter 'RoomAttributeUserOverride' to Get-TargetResource's $result.
+  * Fixes [#6183](https://github.com/microsoft/Microsoft365DSC/issues/6183)
 * IntuneWindowsHelloForBusinessGlobalPolicy
   * Initial release.
     FIXES [#4561](https://github.com/microsoft/Microsoft365DSC/issues/4561)
