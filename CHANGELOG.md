@@ -1,9 +1,6 @@
 # Change log for Microsoft365DSC
 
 # UNRELEASED
-* TeamsMeetingPolicy
-  * Added missing Parameter 'RoomAttributeUserOverride' to Get-TargetResource's $result.
-  * Fixes [#6183](https://github.com/microsoft/Microsoft365DSC/issues/6183)
 * IntuneWindowsHelloForBusinessGlobalPolicy
   * Initial release.
     FIXES [#4561](https://github.com/microsoft/Microsoft365DSC/issues/4561)
@@ -12,6 +9,9 @@
     FIXES [#4609](https://github.com/microsoft/Microsoft365DSC/issues/4609)
 * AADGroupElegibilityScheduleSettings
   * New resource AADGroupElegibilityScheduleSettings
+* TeamsMeetingPolicy
+  * Added missing Parameter 'RoomAttributeUserOverride' to Get-TargetResource's $result.
+  * Fixes [#6183](https://github.com/microsoft/Microsoft365DSC/issues/6183)
 
 # 1.25.611.1
 
